@@ -1,8 +1,8 @@
 # Portfolio Website 🌐
 
-📌 How to Use the ZIP File
+📌 How to Use the File
 
-Download & Extract the ZIP file.
+Download the file.
 
 Open the folder.
 
@@ -11,7 +11,7 @@ Double-click index.html → it will open in your browser. ✅
 🚀 Features
 - Responsive design  
 - Smooth scroll-to-top button  
-- Social media integration (GitHub, LinkedIn, Instagram)  
+- Social media integration (GitHub, LinkedIn)  
 - Simple and clean UI  
 
 📂 Project Structure
@@ -20,4 +20,3 @@ Double-click index.html → it will open in your browser. ✅
 │── script.js # JavaScript functionality
 │── github.png # GitHub logo
 │── linkedin.png # LinkedIn logo
-│── social.png # Instagram logo
