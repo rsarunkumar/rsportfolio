@@ -1,0 +1,144 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background-size: cover;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+header {
+  background: linear-gradient(90deg, #000000 60%, #da2dfd 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 16px rgba(79,70,229,0.1);
+  animation: slideDown 1.2s ease;
+}
+
+header:hover {
+  background: linear-gradient(90deg, #000000 50% s, #d83aff 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 7px 15px rgba(247, 0, 227, 0.226);
+  animation: slideDown 1.2s ease;
+}
+
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff00;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(56,189,248,0.07);
+}
+
+section {
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0.5s;
+}
+
+h1, h2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: #ffffff 0px 0px 0px;
+}
+h1:hover {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: #ffffff 0px 0px 50px;
+}
+h2:hover {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: #da2dfd 0px 0px 50px;
+}
+
+h2 {
+  color: #da2dfd;
+  margin-bottom: 0.5rem;
+  text-shadow: #d400ff 0px 0px 0px;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #0ea5e9;
+  text-decoration: underline;
+}
+
+footer {
+  
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #da2dfd;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.1s, color 0.9s, transform 0.3s;
+}
+
+footer button:hover {
+  background: #ff00dd;
+  color: #ffffff;
+  transform: scale(1.08);
+}
+
+/* Animations */
+@keyframes slideDown {
+  from { opacity: 0; transform: translateX(-200px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.social-links {
+  margin: 1rem 0;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 18px;
+  font-size: 2rem;
+  color: #da2dfd;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.social-links a:hover {
+  color: #2563eb;
+  transform: scale(1.2);
+}
